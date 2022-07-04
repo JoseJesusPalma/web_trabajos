@@ -1,0 +1,7 @@
+.imagen1:hover{filter:brightness(200%); }
+.imagen2:hover{filter:drop-shadow(8px 50px 10px red); }
+/* si no funciona cambialo a grey*/
+.imagen3:hover{filter:saturate(4); }
+.imagen4:hover{filter:hue-rotate(120deg); }
+.imagen5:hover{filter:sepia(200%);
+}

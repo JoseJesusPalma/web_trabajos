@@ -1,0 +1,35 @@
+body{
+background-color:#FF7F50;
+}
+hola{
+.img{
+width:100px;
+height:100px;
+}
+}
+.nombre_completo{
+	color:blue;
+	padding-left:500px;	
+}
+.imagen_filtro:hover{
+filter:drop-shadow(8px 9px 10px blue);
+}
+fielset{
+margin:800px;
+width:1px;
+height:1px;
+color:blue;
+background-color:green;
+}
+.parrafo{
+	color:white;
+	padding-left:500px;	
+	background-color:green;
+} 
+
+
+
+
+
+
+

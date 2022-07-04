@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<head>
+    <html lang="es">
+    <LINK REL=StyleSheet href="../css/stylo.css">
+</head>
+<body>
+        <h1>Visor de imágenes</h1>
+    <script >
+        var miArrayImagenes = ["../img/294759.jpg","../img/958812.jpg","../img/917251.png",];
+        var posicion=parseInt(0);
+        //indica el tiempo que pasa para ejecutar la función
+        setInterval(siguiente,1500);
+        function siguiente() {
+        //Si la longituz del array es distinto vamos sumando 1 para ir al anterior pero es mayor no suma, te caes por el precipicio
+            if (posicion<=miArrayImagenes.length-1) {
+                posicion++;
+            }
+        //pasar de la ultima a la primera
+            if (posicion>miArrayImagenes.length-1) {
+                posicion=0;
+            }
+            document.getElementById("fotos").src=miArrayImagenes[posicion];
+        }
+</script>
+<div>
+    <img src="../img/294759.jpg" id="fotos" height="426" width="640"/>
+</div>
+</body>
+</html
